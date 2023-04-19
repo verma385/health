@@ -1,0 +1,228 @@
+{
+    "users" : [
+        {
+            "name": "Admin", 
+            "username": "admin", 
+            "role": "user", 
+            "email": "1ms19cs019@gmail.com", 
+            "city": "Bengaluru", 
+            "state": "Karnataka", 
+            "aadhar": "123456789123",
+            "speciality": "",
+            "clinic": "",
+            "gender": "male",
+            "dob": "01-01-2000",
+            "pin": "123456",
+            "contact" :"1234567890"
+        },
+
+        {
+            "name": "Dr Ashok Sharma", 
+            "username": "ashok_sharma", 
+            "role": "doctor", 
+            "email": "ankitbargotra855@gmail.com", 
+            "city": "Bengaluru", 
+            "state": "Karnataka", 
+            "aadhar": "234567891231",
+            "speciality": "Allergists/Immunologists",
+            "clinic": "Sharma's Clinic, New BEL Road",
+            "gender": "male",
+            "dob": "01-01-1980",
+            "pin": "5600654",
+            "contact" :"1234567890"
+        },
+        {
+            "name": "Dr Nanditha Verma", 
+            "username": "nanditha_verma", 
+            "role": "doctor", 
+            "email": "ankitbargotra855@gmail.com", 
+            "city": "Bengaluru", 
+            "state": "Karnataka", 
+            "aadhar": "234567891231",
+            "speciality": "Allergists/Immunologists",
+            "clinic": "Verma's Clinic, Mathikere",
+            "gender": "female",
+            "dob": "01-01-1980",
+            "pin": "5600654",
+            "contact" :"1234567890"
+        },
+        {
+            "name": "Dr Ritvik Dass", 
+            "username": "ritvik_dass", 
+            "role": "doctor", 
+            "email": "ankitbargotra855@gmail.com", 
+            "city": "Jammu", 
+            "state": "J&K", 
+            "aadhar": "234567891231",
+            "speciality": "Allergists/Immunologists",
+            "clinic": "Dass's Clinic, Satwari Chowk",
+            "gender": "male",
+            "dob": "01-01-1980",
+            "pin": "5600654",
+            "contact" :"1234567890"
+        },
+        {
+            "name": "Dr Rohan Kumar", 
+            "username": "rohan_kumar", 
+            "role": "doctor", 
+            "email": "ankitbargotra855@gmail.com", 
+            "city": "Bengaluru", 
+            "state": "Karnataka", 
+            "aadhar": "234567891231",
+            "speciality": "Primary Care Providers (PCP)",
+            "clinic": "Kumar's Clinic, New BEL Road",
+            "gender": "male",
+            "dob": "01-01-1980",
+            "pin": "5600654",
+            "contact" :"1234567890"
+        },
+        {
+            "name": "Dr Niharika Gupta", 
+            "username": "niharika_gupta", 
+            "role": "doctor", 
+            "email": "ankitbargotra855@gmail.com", 
+            "city": "Bengaluru", 
+            "state": "Karnataka", 
+            "aadhar": "234567891231",
+            "speciality": "Primary Care Providers (PCP)",
+            "clinic": "Gupta's Clinic, New BEL Road",
+            "gender": "female",
+            "dob": "01-01-1980",
+            "pin": "5600654",
+            "contact" :"1234567890"
+        },
+        {
+            "name": "Dr Ajay Malhotra", 
+            "username": "ajay_malhotra", 
+            "role": "doctor", 
+            "email": "ankitbargotra855@gmail.com", 
+            "city": "Jammu", 
+            "state": "J&K", 
+            "aadhar": "234567891231",
+            "speciality": "Primary Care Providers (PCP)",
+            "clinic": "Dass's Clinic, Nai Basti",
+            "gender": "male",
+            "dob": "01-01-1980",
+            "pin": "5600654",
+            "contact" :"1234567890"
+        },
+        {
+            "name": "Dr Prerna Mehra", 
+            "username": "prerna_mehra", 
+            "role": "doctor", 
+            "email": "ankitbargotra855@gmail.com", 
+            "city": "Jammu", 
+            "state": "J&K", 
+            "aadhar": "234567891231",
+            "speciality": "Primary Care Providers (PCP)",
+            "clinic": "Mehra's Clinic, Nai Basti",
+            "gender": "female",
+            "dob": "01-01-1980",
+            "pin": "5600654",
+            "contact" :"1234567890"
+        },
+        {
+            "name": "Dr Sumeh Mahla", 
+            "username": "sumeh_mahla", 
+            "role": "doctor", 
+            "email": "ankitbargotra855@gmail.com", 
+            "city": "Jammu", 
+            "state": "J&K", 
+            "aadhar": "234567891231",
+            "speciality": "Family Physicians",
+            "clinic": "Mahla's Clinic, Bari Brahmna",
+            "gender": "male",
+            "dob": "01-01-1980",
+            "pin": "5600654",
+            "contact" :"1234567890"
+        },
+        {
+            "name": "Dr Sumith Shah", 
+            "username": "sumith_shah", 
+            "role": "doctor", 
+            "email": "ankitbargotra855@gmail.com", 
+            "city": "Bengaluru", 
+            "state": "Karnataka", 
+            "aadhar": "234567891231",
+            "speciality": "Family Physicians",
+            "clinic": "Shah's Clinic, Mathikere",
+            "gender": "male",
+            "dob": "01-01-1980",
+            "pin": "5600654",
+            "contact" :"1234567890"
+        },
+        {
+            "name": "Dr Sumisha Seth", 
+            "username": "sumisha_seth", 
+            "role": "doctor", 
+            "email": "ankitbargotra855@gmail.com", 
+            "city": "Bengaluru", 
+            "state": "Karnataka", 
+            "aadhar": "234567891231",
+            "speciality": "Family Physicians",
+            "clinic": "Seth's Clinic, New BEL Road",
+            "gender": "female",
+            "dob": "01-01-1980",
+            "pin": "5600654",
+            "contact" :"1234567890"
+        }
+    ],
+
+    "photos" : [
+        {
+            "username" : "admin",
+            "image" : "male-1.jpg",
+            "type" : "image/jpg"
+        },
+        {
+            "username" : "ashok_sharma",
+            "image" : "male-2.png",
+            "type" : "image/png"
+        },
+        {
+            "username" : "nanditha_verma",
+            "image" : "female-1.png",
+            "type" : "image/png"
+        },
+        {
+            "username" : "ritvik_dass",
+            "image" : "male-3.png",
+            "type" : "image/png"
+        },
+        {
+            "username" : "rohan_kumar",
+            "image" : "male-4.jpg",
+            "type" : "image/jpg"
+        },
+        {
+            "username" : "niharika_gupta",
+            "image" : "female-2.png",
+            "type" : "image/png"
+        },
+        {
+            "username" : "ajay_malhotra",
+            "image" : "male-5.jpg",
+            "type" : "image/jpg"
+        },
+        {
+            "username" : "prerna_mehra",
+            "image" : "female-3.png",
+            "type" : "image/png"
+        },
+        {
+            "username" : "sumeh_mahla",
+            "image" : "male-6.jpg",
+            "type" : "image/jpg"
+        },
+        {
+            "username" : "sumith_shah",
+            "image" : "male-7.png",
+            "type" : "image/png"
+        },
+        {
+            "username" : "sumisha_seth",
+            "image" : "female-4.png",
+            "type" : "image/png"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "specialities" : ["Allergists/Immunologists" , "Anesthesiologists", "Cardiologists", 
+        "Colon and Rectal Surgeons", "Critical Care Medicine Specialists", "Dermatologists",
+        "Endocrinologists", "Emergency Medicine Specialists", "Family Physicians",
+        "Gastroenterologists", "Geriatric Medicine Specialists", "Gynecologists",  "Hematologists",
+        "Hospice and Palliative Medicine Specialists", "Infectious Disease Specialists", "Internists",
+        "Medical Geneticists", "Nephrologists", "Neurologists",
+        "Oncologists", "Ophthalmologists", "Osteopaths", "Otolaryngologists", "Pathologists",
+        "Pediatricians", "Physiatrists", "Plastic Surgeons",
+        "Podiatrists", "Preventive Medicine Specialists", "Psychiatrists",
+        "Pulmonologists", "Radiologists", "Rheumatologists",
+        "Sleep Medicine Specialists", "Sports Medicine Specialists", "General Surgeons",
+        "Urologists",
+
+        "Hepatologists", "Primary Care Providers (PCP)", "Pulmonologists", "Orthopaedic Surgeons",
+        "Physiotherapists", "Endocrinologists", "Diabetologists", "Vascular Surgeons"
+    ]
+}

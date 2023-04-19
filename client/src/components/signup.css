@@ -1,0 +1,51 @@
+/* .signup-form{
+    width:50%;
+    
+    margin: auto;
+}
+
+.form-group{
+    width: 50%; 
+   margin: auto;
+   margin-top: 2%; 
+   border-radius: 10px;
+   padding: 5%;
+   background-color: #1b8e81;
+   border: 2px solid grey;
+   text-align: center;
+   color: white;
+}
+.btn {
+
+    padding: 1%;
+    margin-top: 10%;
+    background-color: white;
+}
+input{
+   margin-top: 1%;
+    padding: 1%;
+}
+.form-group input[type="text"], .form-group input[type="password"]
+  {
+     width:50%;
+     border: 2px solid black;
+     border-radius: 10px;
+     background-color: white;
+    transition-duration: 0.4s;
+}
+
+  
+.form-group input[type="text"]:focus, .form-group input[type="password"]:focus{
+    
+    padding: 2%;
+    
+} */
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+    }
+    .card-registration .select-arrow {
+    top: 13px;
+    }
