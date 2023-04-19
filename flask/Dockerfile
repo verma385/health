@@ -6,7 +6,7 @@ WORKDIR /flask
 # Install app dependencies
 COPY requirements.txt requirements.txt
 
-RUN pip install -r requirements.txt
+RUN pip install -r requirements.txt --no-cache-dir
 
 # Bundle app source
 COPY . .
