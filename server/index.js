@@ -1010,6 +1010,17 @@ app.get("/initialise-users", async (req, res)=>{
 app.get("/m", (req, res)=>{
     res.send(mongourl);
 })
+app.post("/u", /*authenticationMiddleware(),*/ (req, res)=>{
+    var username = "a";
+    User.
+        find({username : username}).
+        // select({ username: 1, name: 1, email: 1, speciality:1, clinic:1, city:1, state:1 }).
+        exec(function(err, user){
+            if(err) console.log(err);
+            res.send(user);
+        });
+});
+
 
 app.get("/intialise-photo", async (req, res)=>{
     users.photos.map(async (photo)=>{
