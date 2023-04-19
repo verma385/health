@@ -19,7 +19,7 @@ function Login(){
         Axios({
           method: "POST",
           withCredentials: true,
-          url: '/auth/user',
+          url: 'https://health-bot-backend.onrender.com/auth/user',
           data: {
             
           },
@@ -49,7 +49,7 @@ function Login(){
         Axios({
             method:"POST",
             withCredentials:true,
-            url:'/auth/login',
+            url:'https://health-bot-backend.onrender.com/auth/login',
             data:{
                 username:username,
                 password:password
@@ -64,7 +64,7 @@ function Login(){
                 Axios({
                     method: "GET",
                     withCredentials: true,
-                    url: '/auth/user',
+                    url: 'https://health-bot-backend.onrender.com/auth/user',
                     params: {
               
                     },

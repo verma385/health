@@ -997,15 +997,19 @@ app.get("/initialise-users", async (req, res)=>{
         User.register(curUser,password,(err,x)=>{
             if(err) {
                console.log(err);
-               res.send(err);
+               return res.send(err);
             }
             else {
                
             }
         });
     });
-    return res.send({message : "Users regisetered successfully!!!"});
+    return res.send({message : "Users regisetered successfully"});
 });
+
+app.get("/m", (req, res)=>{
+    res.send(mongourl);
+})
 
 app.get("/intialise-photo", async (req, res)=>{
     users.photos.map(async (photo)=>{
@@ -1034,13 +1038,6 @@ app.get("/intialise-photo", async (req, res)=>{
 
 // **************************************** //
 // **************************************** //
-
-if(process.env.NODE_ENV=="production"){
-    app.use(express.static("client/build"));
-    app.get("*", (req, res)=>{
-        res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
-    })
-}
 
 
 // ***** Setting up Port BEGINS ***** //
