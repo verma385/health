@@ -19,6 +19,7 @@
   },
   "proxy" : "https://health-bot-backend.onrender.com",
   "scripts": {
+    "dev" : "npm install",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
