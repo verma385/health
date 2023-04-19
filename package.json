@@ -1,0 +1,21 @@
+{
+  "name": "healthbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node backend/index.js",
+    "build":"cd server && npm install && cd ../client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/verma385/health.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/verma385/health/issues"
+  },
+  "homepage": "https://github.com/verma385/health#readme"
+}
