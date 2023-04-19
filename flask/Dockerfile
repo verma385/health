@@ -1,15 +1,10 @@
-FROM python:3-alpine
+FROM python:3.8
 
-# Create app directory
-WORKDIR /flask
+WORKDIR /app
 
-# Install app dependencies
-COPY requirements.txt requirements.txt
+COPY requirements.txt .
+RUN pip install -r requirements.txt
 
-RUN pip install -r requirements.txt --no-cache-dir
-
-# Bundle app source
 COPY . .
 
-EXPOSE 8080
-CMD [ "flask", "run","--host","0.0.0.0","--port","8080"]
+CMD ["python", "app.py"]
