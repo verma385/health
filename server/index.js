@@ -996,7 +996,7 @@ app.get("/initialise-users", async (req, res)=>{
         var curUser=new User(user);
         User.register(curUser,password,(err,x)=>{
             if(err) {
-            //    console.log(err);
+               console.log(err);
             }
             else {
                

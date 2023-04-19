@@ -57,6 +57,7 @@ function Login(){
         (res)=>{
             setMessage({success : res.data.success, message: res.data.message});
             setIsVisible(true);
+            console.log("res ", res.data);
             if(res.data.success){
              
                 Axios({
