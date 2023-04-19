@@ -18,7 +18,7 @@ function Login(){
     useEffect(()=>{
         Axios({
           method: "POST",
-          withCredentials: true,
+          withCredentials: false,
           url: 'https://health-bot-backend.onrender.com/auth/user',
           data: {
             
@@ -48,7 +48,7 @@ function Login(){
         }
         Axios({
             method:"POST",
-            withCredentials:true,
+            withCredentials:false,
             url:'https://health-bot-backend.onrender.com/auth/login',
             data:{
                 username:username,
@@ -63,7 +63,7 @@ function Login(){
              
                 Axios({
                     method: "GET",
-                    withCredentials: true,
+                    withCredentials: false,
                     url: 'https://health-bot-backend.onrender.com/auth/user',
                     params: {
               
