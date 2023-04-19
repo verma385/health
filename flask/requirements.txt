@@ -5,3 +5,4 @@ scipy
 requests
 flask
 joblib
+gunicorn==19.7.1
