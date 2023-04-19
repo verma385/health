@@ -100,8 +100,9 @@ def predict():
     return jsonify({"result" : result})
     # return "hi"
 
-
+import __main__
 if __name__ == "__main__":
+    __main__.TraditionalPNN = TraditionalPNN
     app.run(debug=True, host="0.0.0.0", port=8080)
 
 # ## From Node.js to Python
