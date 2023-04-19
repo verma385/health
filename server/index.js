@@ -47,14 +47,7 @@ passport.use(new LocalStrategy(User.authenticate()));
 passport.serializeUser(User.serializeUser());
 passport.deserializeUser(User.deserializeUser());
 app.use(cookieParser());
-app.use((req, res, next) => {
-    res.setHeader("Access-Control-Allow-Origin", "*");
-    res.header(
-      "Access-Control-Allow-Headers",
-      "Origin, X-Requested-With, Content-Type, Accept"
-    );
-    next();
-  });
+
 // ***** Setting up middlewares ENDS ***** //
 
 
@@ -1018,7 +1011,7 @@ app.get("/initialise-users", async (req, res)=>{
 app.get("/m", (req, res)=>{
     res.send(mongourl);
 })
-app.post("/u", /*authenticationMiddleware(),*/ (req, res)=>{
+app.get("/u", /*authenticationMiddleware(),*/ (req, res)=>{
     var username = "a";
     User.
         find({username : username}).
