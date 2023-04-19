@@ -24,6 +24,7 @@ function Login(){
             
           },
         }).then((res) => {
+          console.log("resfrom ", res.data);
           setUser({...res.data});
         });
       }, []);

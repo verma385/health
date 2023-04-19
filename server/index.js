@@ -997,6 +997,7 @@ app.get("/initialise-users", async (req, res)=>{
         User.register(curUser,password,(err,x)=>{
             if(err) {
                console.log(err);
+               res.send(err);
             }
             else {
                
@@ -1041,9 +1042,7 @@ if(process.env.NODE_ENV=="production"){
     })
 }
 
-app.get("/m", (req, res)=>{
-    return res.send(mongourl);
-})
+
 // ***** Setting up Port BEGINS ***** //
 const port = process.env.PORT;
 app.listen(port,(err)=>{
